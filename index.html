@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Color</title>
+    <!--  importar fontes de google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100&family=Pixelify+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="screen">
+    <main>
+            <p><span id="right"></span>&nbspWin</p>
+            <p><span id="wrong"></span>&nbspLose</p>
+        <section>
+            <header>
+            <h2>&nbspRGB</h2>
+            <p id="RGBCode"></p>
+            </header>
+            <!-- posibles respostas, como o usuario ten que facer click uso nav (é interactivo)-->
+            <nav>
+                <ul>
+                    <li id="box1"></li>
+                    <li id="box2"></li>
+                    <li id="box3"></li>
+                </ul>
+            </nav>
+        </section>
+    </main>
+    </div>
+    <!-- no article vai debuxado o resto da consola (cruceta botons e demais)-->
+    <article></article>
+    <script src="script.js" type="module"></script>
+</body>
+</html>
