@@ -1,3 +1,7 @@
+![R](/img/barra-R.jpg)
+![G](/img/barra-G.jpg)
+![B](/img/barra-B.jpg)
+
 # Guess color
 
 ### What is this?
@@ -24,5 +28,4 @@ Guess which color box corresponds to the given RGB code, do you dare?
 
 ## Demo
 
-Insert gif or link to demo
-![Descripción de la imagen](/img/gaivota.png)
+![preview of the game](/img/arcade-color.png)

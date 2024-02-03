@@ -1,4 +1,9 @@
 "use strict";
+//Don't cheat
+document.oncontextmenu = function () {
+  alert("Don't cheat!");
+  return false;
+};
 
 //When the page loads we execute starGame();
 window.addEventListener("load", startGame);
